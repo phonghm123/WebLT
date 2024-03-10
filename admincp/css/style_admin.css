@@ -1,0 +1,45 @@
+
+ 
+        body {
+            background-color: #f8f9fa;
+        }
+
+        .container {
+            padding-top: 100px;
+        }
+
+        .card {
+            border: none;
+            border-radius: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .card-header {
+            background-color: antiquewhite;
+            color: #fff;
+            border-radius: 20px 20px 0 0;
+        }
+
+        .btn-primary {
+            background-color: antiquewhite;
+            border: none;
+            width: fit-content;
+            height: fit-content;
+            color: black;
+            margin-right: 20px;
+            
+        }
+
+        .btn-primary:hover {
+            background-color: #8ab2dc;
+        }
+        .list-group.admincp_listt {
+            
+            display: flex;
+          
+        }
+        
+        .list-group.admincp_listt .btn {
+            flex: 1; /* Cung cấp một phần bằng nhau của không gian cho mỗi nút */
+            margin: 20px; /* Tạo khoảng cách giữa các nút */
+        }

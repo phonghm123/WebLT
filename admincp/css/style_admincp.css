@@ -1,0 +1,29 @@
+ul.admincp_list{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+}
+ul.admincp_list li{
+    float: left;
+    margin: 5px;
+}
+.clear{
+    clear: both;
+}
+
+
+h3.admincp_tile{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(11, 100, 184);
+}
+.wrapper{
+    border: 1px solid #000;
+    height: auto;
+    width: 90%;
+    margin: 0 auto;
+}
+body{
+    background-image: url(../css/back2.jpg);
+}
